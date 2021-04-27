@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-   
-    <Game lvl=0 />
+   <h1>Simon Game</h1>
+    <Game />
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 import Game from './components/Game.vue'
 
 export default {
-  name: 'simon',
+  name: 'Simon',
   components: {
     Game
   }
